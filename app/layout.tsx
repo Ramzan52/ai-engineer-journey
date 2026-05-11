@@ -14,13 +14,13 @@ export const metadata = {
     description:
       "Building modern AI products with Next.js, AI SDKs, automation, and scalable backend systems.",
 
-    url: "https://your-domain.com",
+    url: "https://ramzanarif.vercel.app/",
 
     siteName: "Ramzan Portfolio",
 
     images: [
       {
-        url: "/proile.jpg",
+        url: "/profile.jpg",
         width: 1200,
         height: 630,
       },
@@ -38,7 +38,7 @@ export const metadata = {
     description:
       "Modern AI Engineer portfolio built using Next.js and AI technologies.",
 
-    images: ["/proile.jpg"],
+    images: ["/profile.jpg"],
   },
 };
 
