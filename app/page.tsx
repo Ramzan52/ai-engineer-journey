@@ -1,25 +1,31 @@
+// app/page.tsx
+import Navbar from "./components/NavBar";
+
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black text-white flex flex-col items-center justify-center">
-      
-      <h1 className="text-6xl font-bold mb-4">
-        Ramzan's AI Engineer Journey
-      </h1>
+    <main className="min-h-screen bg-black text-white">
+      <Navbar />
 
-      <p className="text-gray-400 text-xl mb-8">
-        Building AI products with Next.js
-      </p>
+      <section className="text-center py-28 px-6">
+        <h1 className="text-6xl font-bold mb-4">
+          AI Engineer & Full Stack Developer
+        </h1>
 
-      <div className="flex gap-4">
-        <button className="bg-white text-black px-6 py-3 rounded-xl font-semibold hover:scale-105 transition">
-          View Projects
-        </button>
+        <p className="text-gray-400 text-xl max-w-2xl mx-auto">
+          I build modern AI-powered applications using Next.js, automation tools,
+          backend systems, and scalable architectures.
+        </p>
 
-        <button className="border border-white px-6 py-3 rounded-xl hover:bg-white hover:text-black transition">
-          Contact Me
-        </button>
-      </div>
+        <div className="mt-8 flex justify-center gap-4">
+          <a className="bg-white text-black px-6 py-3 rounded-xl">
+            View Projects
+          </a>
 
+          <a className="border border-white px-6 py-3 rounded-xl">
+            Contact Me
+          </a>
+        </div>
+      </section>
     </main>
   );
 }
