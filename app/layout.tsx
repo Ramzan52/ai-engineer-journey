@@ -1,9 +1,9 @@
-// app/layout.tsx
 import "./globals.css";
 
 export const metadata = {
-  title: "Ramzan Portfolio",
-  description: "AI Engineer Portfolio",
+  title: "Ramzan | AI Engineer & Full Stack Developer",
+  description:
+    "Portfolio of Ramzan - AI Engineer and Full Stack Developer focused on Next.js, AI apps, automation, backend systems, and data-driven products.",
 };
 
 export default function RootLayout({

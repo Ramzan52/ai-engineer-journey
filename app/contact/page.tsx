@@ -1,39 +1,30 @@
-// app/contact/page.tsx
 import Navbar from "../components/NavBar";
+import ContactForm from "../components/ContactForm";
+import Footer from "../components/Footer";
 
 export default function Contact() {
   return (
     <main className="min-h-screen bg-black text-white">
       <Navbar />
 
-      <section className="max-w-xl mx-auto py-20 px-6">
-        <h1 className="text-4xl font-bold mb-6">Contact Me</h1>
-
-        <p className="text-gray-400 mb-8">
-          Feel free to reach out for opportunities or collaboration.
+      <section className="max-w-3xl mx-auto px-6 py-20">
+        <p className="text-sm uppercase tracking-widest text-gray-500 mb-3">
+          Contact
         </p>
 
-        <div className="space-y-4">
-          <input
-            placeholder="Your Name"
-            className="w-full p-3 bg-gray-900 border border-gray-700 rounded-xl"
-          />
+        <h1 className="text-5xl font-bold mb-6">
+          Let’s build something useful.
+        </h1>
 
-          <input
-            placeholder="Email"
-            className="w-full p-3 bg-gray-900 border border-gray-700 rounded-xl"
-          />
+        <p className="text-gray-400 text-lg mb-10">
+          Reach out for full-stack development, AI apps, automation workflows,
+          backend systems, or collaboration opportunities.
+        </p>
 
-          <textarea
-            placeholder="Message"
-            className="w-full p-3 bg-gray-900 border border-gray-700 rounded-xl"
-          />
-
-          <button className="w-full bg-white text-black py-3 rounded-xl font-semibold">
-            Send Message
-          </button>
-        </div>
+        <ContactForm />
       </section>
+
+      <Footer />
     </main>
   );
 }
