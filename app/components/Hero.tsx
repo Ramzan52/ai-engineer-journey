@@ -51,7 +51,7 @@ export default function Hero() {
 
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-12 max-w-xl">
                         {[
-                            ["3+", "Projects"],
+                            ["50+", "Projects"],
                             ["$20-$30", "Hourly Rate"],
                             ["Remote", "Available"],
                         ].map(([value, label]) => (
